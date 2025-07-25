@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PRIME | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
       display: none;
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
     }
   </style>
 </head>
 <body>
 
   <script>
-    const password = prompt("Enter the password:");
-    if (password === "1234") {  // Change this to your desired password
+    const password = prompt("Enter password:");
+    if (password === "1234") {
       document.body.style.display = "block";
     } else {
-      document.body.innerHTML = "<h2 style='text-align:center; color:red;'>Access Denied</h2>";
+      document.body.innerHTML = "<h2 style='color:red; text-align:center;'>Access Denied</h2>";
       document.body.style.display = "block";
     }
   </script>
@@ -48,15 +48,15 @@
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- About -->
   <section id="about">
     <div class="container">
       <h2>About Me</h2>
-      <p>I’m a beginner web developer passionate about building clean and interactive websites. I enjoy learning new technologies and working on exciting projects.</p>
+      <p>I’m a beginner web developer passionate about building clean and interactive websites.</p>
     </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- Skills -->
   <section id="skills">
     <div class="container">
       <h2>Skills</h2>
@@ -69,7 +69,7 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- Projects -->
   <section id="projects">
     <div class="container">
       <h2>Projects</h2>
@@ -86,7 +86,7 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact -->
   <section id="contact">
     <div class="container">
       <h2>Contact Me</h2>
