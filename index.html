@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+  <body>
+  <h1>Welcome to the protected page!</h1>
+  <script>
+    const password = prompt("Enter password:");
+    if (password === "1234") {
+      document.body.style.display = "block";
+    } else {
+      document.body.innerHTML = "<h2>Access Denied</h2>";
+      document.body.style.display = "block";
+    }
+  </script>
+</body>
+
 <head>
   <meta charset="UTF-8" />
   <title>PRIME | Portfolio</title>
